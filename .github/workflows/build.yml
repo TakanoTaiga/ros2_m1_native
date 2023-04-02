@@ -20,10 +20,11 @@ jobs:
 
       - name: Build ROS 2 on macOS
         run: |
-          zsh -c "export PATH=$(brew --prefix)/opt/python@3.10/libexec/bin:$PATH; \
-          mkdir src; \
-          vcs import src < ros2.repos; \
-          colcon build --symlink-install --cmake-args -DBUILD_TESTING=OFF -DTHIRDPARTY=FORCE"
+          export PATH=$(brew --prefix)/opt/python@3.10/libexec/bin:$PATH
+          mkdir src
+          vcs import src < ros2.repos
+          colcon build --symlink-install --cmake-args -DBUILD_TESTING=OFF -DTHIRDPARTY=FORCE \
+            -DPYTHON_EXECUTABLE=$(which python3.10)
 
       - name: ros2 doctor
         run: |
