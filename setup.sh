@@ -3,7 +3,7 @@
 cd $HOME
 
 # Check if brew is installed.
-if [[ -z "$(brew doctor)" ]] ; then
+if [[ -z "$(brew --version)" ]] ; then
     echo "brew is not insalled."
     exit 1
 fi
