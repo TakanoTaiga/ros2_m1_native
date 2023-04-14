@@ -28,7 +28,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/ma
 
 | status | package | note |
 | -- | -- | -- |
-| 👀 | rviz2 |  |
+| 📄 | rviz2 |  |
 | 📄 | TF2 |  |
 | 📄 | launch |  |
 | 📄 | demo node |  |
