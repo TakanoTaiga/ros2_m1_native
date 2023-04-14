@@ -15,3 +15,30 @@ brew install wget
 ```sh
 bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/master/setup.sh)
 ```
+
+## Roadmap
+
+| status Level | tag | mean |
+| -- | -- | -- |
+| 3 | ✅ | Merged or checked |
+| 2 | 📄 | Final Testing |
+| 1 | 👀 | WIP |
+| 0 | 🫠 | Pending |
+
+
+| status | package | note |
+| -- | -- | -- |
+| 👀 | TF2 |  |
+| 👀 | rviz2 |  |
+| 📄 | launch |  |
+| 📄 | demo node |  |
+| 📄 | cyclone DDS |  |
+| ✅ | rosbag2 |  |
+| ✅ | ros2cli |  |
+| ✅ | fastDDS |  |
+| ✅ | rclcpp |  |
+| ✅ | rclpy |  |
+| 🫠 | nav2 |  |
+| 🫠 | ros-foxglove-bridge  |  |
+
+
