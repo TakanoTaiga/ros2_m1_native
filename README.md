@@ -21,7 +21,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/ma
 | status Level | tag | mean |
 | -- | -- | -- |
 | 3 | ✅ | Merged or checked |
-| 2 | 📄 | Final Testing |
+| 2 | 📄 | Final test |
 | 1 | 👀 | WIP |
 | 0 | 🫠 | Pending |
 
