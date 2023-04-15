@@ -32,14 +32,11 @@ bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/ma
 | 👀 | ros-foxglove-bridge  |  |
 | 📄 | rviz2 |  |
 | 📄 | TF2 |  |
-| 📄 | launch |  |
-| 📄 | demo node |  |
 | 📄 | cyclone DDS |  |
+| ✅ | launch |  |
+| ✅ | demo node |  |
 | ✅ | rosbag2 |  |
 | ✅ | ros2cli |  |
 | ✅ | fastDDS |  |
 | ✅ | rclcpp |  |
 | ✅ | rclpy |  |
-
-
-
