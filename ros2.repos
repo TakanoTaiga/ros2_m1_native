@@ -167,3 +167,15 @@ repositories:
     type: git
     url: https://github.com/ros2/yaml_cpp_vendor.git
     version: humble
+  ros2/launch:
+    type: git
+    url: https://github.com/ros2/launch.git
+    version: humble
+  ros2/launch_ros:
+    type: git
+    url: https://github.com/ros2/launch_ros.git
+    version: humble
+  osrf/osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: master
