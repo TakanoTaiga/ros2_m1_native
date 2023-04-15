@@ -11,12 +11,12 @@ fi
 # install dep at brew
 brew install asio assimp bison bullet cmake console_bridge cppcheck \
   cunit eigen freetype graphviz opencv openssl orocos-kdl pcre poco \
-  pyqt5 python qt@5 sip spdlog tinyxml tinyxml2 ignition-cmake2
+  pyqt5 python qt@5 sip spdlog tinyxml tinyxml2
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap osrf/simulation
 
-brew install ignition-math6
+brew install ignition-cmake2 ignition-math6
 
 # setup python3.11
 touch ~/.zshrc
