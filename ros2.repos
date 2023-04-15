@@ -203,3 +203,49 @@ repositories:
     type: git
     url: https://github.com/ros2/orocos_kdl_vendor.git
     version: humble
+
+  #RViz2
+  ros2/rviz:
+    type: git
+    url: https://github.com/TakanoTaiga/rviz.git
+    version: rolling
+  ros/resource_retriever:
+    type: git
+    url: https://github.com/ros/resource_retriever.git
+    version: humble
+  ros2/tinyxml_vendor:
+    type: git
+    url: https://github.com/ros2/tinyxml_vendor.git
+    version: humble
+  ros2/urdf:
+    type: git
+    url: https://github.com/ros2/urdf.git
+    version: humble
+  ros/urdfdom:
+    type: git
+    url: https://github.com/ros/urdfdom.git
+    version: humble
+  ros/urdfdom_headers:
+    type: git
+    url: https://github.com/ros/urdfdom_headers.git
+    version: humble
+  ros-perception/image_common:
+    type: git
+    url: https://github.com/ros-perception/image_common.git
+    version: humble
+  ros-visualization/interactive_markers:
+    type: git
+    url: https://github.com/ros-visualization/interactive_markers.git
+    version: humble
+  ros-perception/laser_geometry:
+    type: git
+    url: https://github.com/ros-perception/laser_geometry.git
+    version: humble
+  ros-planning/navigation_msgs:
+    type: git
+    url: https://github.com/ros-planning/navigation_msgs.git
+    version: humble
+  ros-perception/vision_opencv:
+    type: git
+    url: https://github.com/ros-perception/vision_opencv.git
+    version: humble

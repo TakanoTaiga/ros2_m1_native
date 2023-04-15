@@ -11,8 +11,12 @@ fi
 # install dep at brew
 brew install asio assimp bison bullet cmake console_bridge cppcheck \
   cunit eigen freetype graphviz opencv openssl orocos-kdl pcre poco \
-  pyqt5 python qt@5 sip spdlog tinyxml tinyxml2
+  pyqt5 python qt@5 sip spdlog tinyxml tinyxml2 ignition-cmake2
 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap osrf/simulation
+
+brew install ignition-math6
 
 # setup python3.11
 touch ~/.zshrc
@@ -38,7 +42,7 @@ python3 -m pip install -U \
  pytest-mock rosdep rosdistro setuptools==59.6.0 vcstool
 
 # clone ros2_m1_native
-git clone https://github.com/TakanoTaiga/ros2_m1_native.git
+git clone https://github.com/TakanoTaiga/ros2_m1_native.git -b support_rviz
 mkdir ${HOME}/ros2_m1_native/src
 cd ${HOME}/ros2_m1_native/
 
