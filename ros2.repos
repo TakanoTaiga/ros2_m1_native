@@ -187,3 +187,19 @@ repositories:
     type: git
     url: https://github.com/ros2/example_interfaces.git
     version: humble
+  ros2/geometry2:
+    type: git
+    url: https://github.com/TakanoTaiga/geometry2.git
+    version: humble
+  ros2/eigen3_cmake_module:
+    type: git
+    url: https://github.com/ros2/eigen3_cmake_module.git
+    version: humble
+  ros2/message_filters:
+    type: git
+    url: https://github.com/ros2/message_filters.git
+    version: humble
+  ros2/orocos_kdl_vendor:
+    type: git
+    url: https://github.com/ros2/orocos_kdl_vendor.git
+    version: humble
