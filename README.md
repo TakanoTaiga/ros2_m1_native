@@ -13,7 +13,7 @@ brew install wget
 
 ## install
 ```sh
-bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/master/setup.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/support_rviz/setup.sh)
 ```
 
 ## Roadmap
