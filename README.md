@@ -28,6 +28,8 @@ bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/ma
 
 | status | package | note |
 | -- | -- | -- |
+| 👀 | nav2 |  |
+| 👀 | ros-foxglove-bridge  |  |
 | 📄 | rviz2 |  |
 | 📄 | TF2 |  |
 | 📄 | launch |  |
@@ -38,7 +40,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/TakanoTaiga/ros2_m1_native/ma
 | ✅ | fastDDS |  |
 | ✅ | rclcpp |  |
 | ✅ | rclpy |  |
-| 🫠 | nav2 |  |
-| 🫠 | ros-foxglove-bridge  |  |
+
 
 
