@@ -299,15 +299,15 @@ repositories:
     type: git
     url: https://github.com/ros2/tlsf.git
     version: humble
-  eclipse-cyclonedds/cyclonedds:
+  ros-perception/image_common:
     type: git
-    url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-    version: releases/0.10.x
-  eclipse-iceoryx/iceoryx:
+    url: https://github.com/ros-perception/image_common.git
+    version: humble
+  ros-perception/laser_geometry:
     type: git
-    url: https://github.com/eclipse-iceoryx/iceoryx.git
-    version: release_2.0
-  ros2/rmw_cyclonedds:
+    url: https://github.com/ros-perception/laser_geometry.git
+    version: humble
+  ros-planning/navigation_msgs:
     type: git
-    url: https://github.com/ros2/rmw_cyclonedds.git
+    url: https://github.com/ros-planning/navigation_msgs.git
     version: humble
