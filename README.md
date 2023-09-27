@@ -1,5 +1,5 @@
 ## Supported Platforms
-- macOS 13.5.1
+- macOS 14.0
 - M1 Max MacBook Pro
 ## install
 
