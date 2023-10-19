@@ -1,26 +1,16 @@
 ## Supported Platforms
 - macOS 14.0
 - M1 Max MacBook Pro
-## install
-
-
+## install guide
 https://qiita.com/TakanoTaiga/items/f67217ce60a81799a663
 
 ## Roadmap
 
-| status Level | tag | mean |
-| -- | -- | -- |
-| 3 | ✅ | Merged or checked |
-| 0 | 🫠 | Pending |
+✅ = Merged and checked
 
 
 | status | package | note |
 | -- | -- | -- |
-| 🫠 | nav2 |  |
-| 🫠 | ros-foxglove-bridge  |  |
-| 🫠 | rviz2 |  |
-| 🫠 | rqt |  |
-| 🫠 | cyclone DDS |  |
 | ✅ | TF2 |  |
 | ✅ | launch |  |
 | ✅ | demo node |  |
