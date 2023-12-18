@@ -27,6 +27,10 @@ brew install \
 ```
 
 ```bash
+brew uninstall --ignore-dependencies python@3.12 qt6
+```
+
+```bash
 python3.11 -m pip install -U pip
 python3.11 -m pip install --global-option=build_ext \
        --global-option="-I$(brew --prefix graphviz)/include/" \
@@ -50,10 +54,12 @@ vcs import src < ros2.repos
 ```
 
 ```bash
+export COLCON_EXTENSION_BLOCKLIST=colcon_core.event_handler.desktop_notification
 python3.11 -m colcon build --symlink-install --cmake-args \
             -DBUILD_TESTING=OFF \
             -DTHIRDPARTY=FORCE \
-            -DCMAKE_BUILD_TYPE=Release
+            -DCMAKE_BUILD_TYPE=Release \
+            -Wno-dev
 ```
 
 ## Write to .zshrc
