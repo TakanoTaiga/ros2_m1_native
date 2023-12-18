@@ -1,14 +1,15 @@
 ## Test env
+
 - M1 Max 64GB MacBook Pro
 - macOS 13.5.2 (22G91)
 
 ## How to install
 
 ### Install brew
+
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
 
 **Execute the command mentioned at the end of the brew installation here**
 
@@ -23,6 +24,10 @@ brew install \
     asio assimp bison bullet cmake console_bridge cppcheck \
     cunit eigen freetype graphviz opencv openssl orocos-kdl pcre poco \
     pyqt5 python qt@5 sip spdlog tinyxml tinyxml2 wget
+```
+
+```bash
+brew uninstall --ignore-dependencies python@3.12 qt6
 ```
 
 ```bash
@@ -49,14 +54,17 @@ vcs import src < ros2.repos
 ```
 
 ```bash
+export COLCON_EXTENSION_BLOCKLIST=colcon_core.event_handler.desktop_notification
 python3.11 -m colcon build --symlink-install --cmake-args \
             -DBUILD_TESTING=OFF \
             -DTHIRDPARTY=FORCE \
-            -DCMAKE_BUILD_TYPE=Release
+            -DCMAKE_BUILD_TYPE=Release \
+            -Wno-dev
 ```
 
 ## Write to .zshrc
-```
+
+```bash
 source ~/Documents/ros2_m1_native/install/setup.zsh
 export ROS_VERSION=2
 export ROS_PYTHON_VERSION=3
@@ -65,13 +73,14 @@ export ROS_DISTRO=humble
 
 `source ~/Documents/ros2_m1_native/install/setup.zsh` is an example if you have used `git clone` within the Documents directory. If it's in the home directory, it would be `source ~/ros2_m1_native/[so on]`.
 
-
 ## Quick run
-```
+
+```bash
 # terminal 1
 ros2 run demo_nodes_cpp talker
 ```
-```
+
+```bash
 # terminal 2
 ros2 run demo_nodes_py listener
 ```
