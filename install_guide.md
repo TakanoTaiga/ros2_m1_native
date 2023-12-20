@@ -54,6 +54,13 @@ vcs import src < ros2.repos
 ```
 
 ```bash
+patch -l < patches/ros2_console_bridge_vendor.patch
+patch -l < patches/ros2_rviz_ogre_vendor.patch
+```
+
+```bash
+export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:$(brew --prefix qt@5)
+export PATH=$PATH:$(brew --prefix qt@5)/bin
 export COLCON_EXTENSION_BLOCKLIST=colcon_core.event_handler.desktop_notification
 python3.11 -m colcon build --symlink-install --cmake-args \
             -DBUILD_TESTING=OFF \
