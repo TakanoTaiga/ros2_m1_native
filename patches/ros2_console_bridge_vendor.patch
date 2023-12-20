@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9fa3780..5dd3001 100644
+--- a/CMakeLists.txt
++++ src/ros2/console_bridge_vendor/CMakeLists.txt
+@@ -5,6 +5,7 @@ project(console_bridge_vendor)
+ # Default to C++14
+ if(NOT CMAKE_CXX_STANDARD)
+   set(CMAKE_CXX_STANDARD 14)
++  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+ endif()
+ 
+ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
