@@ -38,7 +38,7 @@ python3.11 -m pip install --global-option=build_ext \
        pygraphviz
 python3.11 -m pip install -U \
       argcomplete catkin_pkg colcon-common-extensions coverage \
-      cryptography empy flake8 flake8-blind-except==0.1.1 flake8-builtins \
+      cryptography empy==3.3.4 flake8 flake8-blind-except==0.1.1 flake8-builtins \
       flake8-class-newline flake8-comprehensions flake8-deprecated \
       flake8-docstrings flake8-import-order flake8-quotes \
       importlib-metadata lark==1.1.1 lxml matplotlib mock mypy==0.931 netifaces \
