@@ -15,6 +15,10 @@ repositories:
     type: git
     url: https://github.com/ament/ament_lint.git
     version: humble
+  ament/googletest:
+    type: git
+    url: https://github.com/ament/googletest.git
+    version: humble
   ament/uncrustify_vendor:
     type: git
     url: https://github.com/ament/uncrustify_vendor.git
@@ -150,6 +154,10 @@ repositories:
   ros2/rpyutils:
     type: git
     url: https://github.com/ros2/rpyutils.git
+    version: humble
+  ros2/rviz:
+    type: git
+    url: https://github.com/ros2/rviz.git
     version: humble
   ros2/spdlog_vendor:
     type: git
