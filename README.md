@@ -1,10 +1,10 @@
 ## Supported Platforms
-- macOS 14.0
+- macOS 14.2.1 (23C71)
 - M1 Max MacBook Pro
-## install guide
-- [ros2_m1_native/install_guide.md](https://github.com/TakanoTaiga/ros2_m1_native/blob/master/install_guide.md)
-- [Install Guide @Qiita](https://qiita.com/TakanoTaiga/items/f67217ce60a81799a663)
 
+## install guide
+- [ros2_m1_native/install_guide.md](./install_guide.md)
+- [Install Guide @Qiita](https://qiita.com/TakanoTaiga/items/f67217ce60a81799a663)
 
 ## Roadmap
 

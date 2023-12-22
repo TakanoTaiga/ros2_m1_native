@@ -1,7 +1,7 @@
 ## Test env
 
 - M1 Max 64GB MacBook Pro
-- macOS 13.5.2 (22G91)
+- macOS 14.2.1 (23C71)
 
 ## How to install
 
@@ -12,12 +12,6 @@
 ```
 
 **Execute the command mentioned at the end of the brew installation here**
-
-```bash
-# example
-echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/hoge/.zprofile
-eval $(/opt/homebrew/bin/brew shellenv)
-```
 
 ```bash
 brew install \
@@ -72,13 +66,11 @@ python3.11 -m colcon build --symlink-install --cmake-args \
 ## Write to .zshrc
 
 ```bash
-source ~/Documents/ros2_m1_native/install/setup.zsh
+source ~/ros2_m1_native/install/setup.zsh
 export ROS_VERSION=2
 export ROS_PYTHON_VERSION=3
 export ROS_DISTRO=humble
 ```
-
-`source ~/Documents/ros2_m1_native/install/setup.zsh` is an example if you have used `git clone` within the Documents directory. If it's in the home directory, it would be `source ~/ros2_m1_native/[so on]`.
 
 ## Quick run
 
