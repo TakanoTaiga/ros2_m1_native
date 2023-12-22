@@ -21,3 +21,4 @@
 | ✅ | fastDDS |  |
 | ✅ | rclcpp |  |
 | ✅ | rclpy |  |
+| ✅ | rviz2 |  |
