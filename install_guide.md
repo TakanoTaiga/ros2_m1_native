@@ -17,7 +17,7 @@
 brew install \
     asio assimp bison bullet cmake console_bridge cppcheck \
     cunit eigen freetype graphviz opencv openssl orocos-kdl pcre poco \
-    pyqt5 python qt@5 sip spdlog tinyxml tinyxml2 wget
+    py3cairo pyqt5 python qt@5 sip spdlog tinyxml tinyxml2 wget
 ```
 
 ```bash
@@ -50,13 +50,14 @@ vcs import src < ros2.repos
 ```bash
 patch -l < patches/ros2_console_bridge_vendor.patch
 patch -l < patches/ros2_rviz_ogre_vendor.patch
+patch -l < patches/ros_visualization_rqt_bag.patch
 ```
 
 ```bash
 export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:$(brew --prefix qt@5)
 export PATH=$PATH:$(brew --prefix qt@5)/bin
 export COLCON_EXTENSION_BLOCKLIST=colcon_core.event_handler.desktop_notification
-python3.11 -m colcon build --symlink-install --cmake-args \
+python3.11 -m colcon build --symlink-install --packages-skip-by-dep qt_gui_cpp --packages-skip qt_gui_cpp --cmake-args \
             -DBUILD_TESTING=OFF \
             -DTHIRDPARTY=FORCE \
             -DCMAKE_BUILD_TYPE=Release \

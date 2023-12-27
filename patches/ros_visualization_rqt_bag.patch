@@ -1,0 +1,35 @@
+diff --git a/rqt_bag_plugins/src/rqt_bag_plugins/image_timeline_renderer.py b/rqt_bag_plugins/src/rqt_bag_plugins/image_timeline_renderer.py
+index d368bc9..666c1bd 100755
+--- a/rqt_bag_plugins/src/rqt_bag_plugins/image_timeline_renderer.py
++++ src/ros-visualization/rqt_bag/rqt_bag_plugins/src/rqt_bag_plugins/image_timeline_renderer.py
+@@ -40,8 +40,7 @@ if (
+     'PyQt5' in sys.modules
+ ):
+     sys.modules['PyQt5'] = None
+-from PIL import Image
+-from PIL.ImageQt import ImageQt
++from PIL import Image, ImageQt
+ 
+ from rqt_bag import TimelineCache, TimelineRenderer
+ 
+diff --git a/rqt_bag_plugins/src/rqt_bag_plugins/image_view.py b/rqt_bag_plugins/src/rqt_bag_plugins/image_view.py
+index bb67c73..e6126de 100755
+--- a/rqt_bag_plugins/src/rqt_bag_plugins/image_view.py
++++ src/ros-visualization/rqt_bag/rqt_bag_plugins/src/rqt_bag_plugins/image_view.py
+@@ -30,7 +30,7 @@
+ # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ # POSSIBILITY OF SUCH DAMAGE.
+ 
+-from PIL import Image
++from PIL import Image, ImageQt
+ 
+ # HACK workaround for upstream pillow issue python-pillow/Pillow#400
+ import sys
+@@ -40,7 +40,6 @@ if (
+     'PyQt5' in sys.modules
+ ):
+     sys.modules['PyQt5'] = None
+-from PIL.ImageQt import ImageQt
+ 
+ from rqt_bag import TopicMessageView
+ from rqt_bag_plugins import image_helper

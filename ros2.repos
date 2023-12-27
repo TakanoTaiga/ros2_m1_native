@@ -47,6 +47,78 @@ repositories:
     type: git
     url: https://github.com/ros-tooling/libstatistics_collector.git
     version: humble
+  ros-visualization/interactive_markers:
+    type: git
+    url: https://github.com/ros-visualization/interactive_markers.git
+    version: humble
+  ros-visualization/python_qt_binding:
+    type: git
+    url: https://github.com/ros-visualization/python_qt_binding.git
+    version: humble
+  ros-visualization/qt_gui_core:
+    type: git
+    url: https://github.com/ros-visualization/qt_gui_core.git
+    version: humble
+  ros-visualization/rqt:
+    type: git
+    url: https://github.com/ros-visualization/rqt.git
+    version: humble
+  ros-visualization/rqt_action:
+    type: git
+    url: https://github.com/ros-visualization/rqt_action.git
+    version: humble
+  ros-visualization/rqt_bag:
+    type: git
+    url: https://github.com/ros-visualization/rqt_bag.git
+    version: humble
+  ros-visualization/rqt_console:
+    type: git
+    url: https://github.com/ros-visualization/rqt_console.git
+    version: humble
+  ros-visualization/rqt_graph:
+    type: git
+    url: https://github.com/ros-visualization/rqt_graph.git
+    version: humble
+  ros-visualization/rqt_msg:
+    type: git
+    url: https://github.com/ros-visualization/rqt_msg.git
+    version: humble
+  ros-visualization/rqt_plot:
+    type: git
+    url: https://github.com/ros-visualization/rqt_plot.git
+    version: humble
+  ros-visualization/rqt_publisher:
+    type: git
+    url: https://github.com/ros-visualization/rqt_publisher.git
+    version: humble
+  ros-visualization/rqt_py_console:
+    type: git
+    url: https://github.com/ros-visualization/rqt_py_console.git
+    version: humble
+  ros-visualization/rqt_reconfigure:
+    type: git
+    url: https://github.com/ros-visualization/rqt_reconfigure.git
+    version: humble
+  ros-visualization/rqt_service_caller:
+    type: git
+    url: https://github.com/ros-visualization/rqt_service_caller.git
+    version: humble
+  ros-visualization/rqt_shell:
+    type: git
+    url: https://github.com/ros-visualization/rqt_shell.git
+    version: humble
+  ros-visualization/rqt_srv:
+    type: git
+    url: https://github.com/ros-visualization/rqt_srv.git
+    version: humble
+  ros-visualization/rqt_topic:
+    type: git
+    url: https://github.com/ros-visualization/rqt_topic.git
+    version: humble
+  ros-visualization/tango_icons_vendor:
+    type: git
+    url: https://github.com/ros-visualization/tango_icons_vendor.git
+    version: humble
   ros/class_loader:
     type: git
     url: https://github.com/ros/class_loader.git
