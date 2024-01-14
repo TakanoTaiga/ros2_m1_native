@@ -26,9 +26,9 @@ brew uninstall --ignore-dependencies python@3.12 qt6
 
 ```bash
 python3.11 -m pip install -U pip
-python3.11 -m pip install --global-option=build_ext \
-       --global-option="-I$(brew --prefix graphviz)/include/" \
-       --global-option="-L$(brew --prefix graphviz)/lib/" \
+python3.11 -m pip install --config-settings="--global-option=build_ext" \
+       --config-settings="--global-option="-I$(brew --prefix graphviz)/include/"" \
+       --config-settings="--global-option="-L$(brew --prefix graphviz)/lib/"" \
        pygraphviz
 python3.11 -m pip install -U \
       argcomplete catkin_pkg colcon-common-extensions coverage \
