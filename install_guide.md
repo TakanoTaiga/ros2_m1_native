@@ -17,7 +17,7 @@
 brew install \
     asio assimp bison bullet cmake console_bridge cppcheck \
     cunit eigen freetype graphviz opencv openssl orocos-kdl pcre poco \
-    py3cairo pyqt5 python qt@5 sip spdlog tinyxml tinyxml2 wget
+    py3cairo pyqt5 python@3.11 qt@5 sip spdlog tinyxml tinyxml2 wget
 ```
 
 ```bash

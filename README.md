@@ -4,7 +4,6 @@
 
 ## install guide
 - [ros2_m1_native/install_guide.md](./install_guide.md)
-- [Install Guide @Qiita](https://qiita.com/TakanoTaiga/items/f67217ce60a81799a663)
 
 ## Roadmap
 
