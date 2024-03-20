@@ -17,11 +17,22 @@
 brew install \
     asio assimp bison bullet cmake console_bridge cppcheck \
     cunit eigen freetype graphviz opencv openssl orocos-kdl pcre poco \
-    py3cairo pyqt5 python@3.11 qt@5 sip spdlog tinyxml tinyxml2 wget
+    qt@5 sip spdlog tinyxml tinyxml2 wget tcl-tk
 ```
 
 ```bash
 brew uninstall --ignore-dependencies python@3.12 qt6
+```
+
+```bash
+brew install pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> $HOME/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> $HOME/.zshrc
+echo 'eval "$(pyenv init -)"' >> $HOME/.zshrc
+pyenv install 3.11.8
+pyenv global 3.11.8
+pyenv local 3.11.8
+source $HOME/.zshrc
 ```
 
 ```bash
@@ -36,8 +47,9 @@ python3.11 -m pip install -U \
       flake8-class-newline flake8-comprehensions flake8-deprecated \
       flake8-docstrings flake8-import-order flake8-quotes \
       importlib-metadata lark==1.1.1 lxml matplotlib mock mypy==0.931 netifaces \
-      nose pep8 psutil pydocstyle pydot pygraphviz pyparsing==2.4.7 \
-      pytest-mock rosdep rosdistro setuptools==59.6.0 vcstool
+      nose pep8 psutil pycairo pydocstyle pydot pyparsing==2.4.7 \
+      PyQt5 pytest-mock rosdep rosdistro setuptools==69.2.0 vcstool
+source $HOME/.zshrc
 ```
 
 ```bash
