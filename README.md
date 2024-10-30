@@ -1,3 +1,6 @@
+## Alternative Project
+https://pixi.sh/dev/tutorials/ros2/#create-a-pixi-project
+
 ## Supported Platforms
 - macOS 14.2.1 (23C71)
 - M1 Max MacBook Pro
